@@ -119,6 +119,17 @@ img {
 .item-info_text {
   padding-top: 0.5rem;
   box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 /* Mediaqueries */
+/* @media screen and (min-width: 768px) {
+  .item {
+    flex-direction: column;
+    max-width: ;
+  }
+} */
