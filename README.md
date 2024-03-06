@@ -12,10 +12,10 @@
 <table>
 <tr>
       <td>
-      <img src="./images/media_1.JPG" width="100%" height="10%"/>
+      <img src="./images/media_1.jpg" width="100%" height="10%"/>
       </td>
       <td>
-     <img src="./images/media_2.JPG" width="100%" height="100%"/>
+     <img src="./images/media_2.jpg" width="100%" height="100%"/>
       </td>
 </tr>
 </table>
