@@ -9,6 +9,18 @@
 
 ### 📌 주요 기능
 
+<table>
+<tr>
+      <td>
+      <img src="./images/media_1.JPG" width="100%" height="10%"/>
+      </td>
+      <td>
+     <img src="./images/media_2.JPG" width="100%" height="100%"/>
+      </td>
+</tr>
+</table>
+<br>
+
 - <b>데이터에서 카테고리를 추출하여 버튼 목록 출력</b>
 - <b>클릭한 카테고리에 맞는 메뉴 정보 출력</b>
 
@@ -60,30 +72,34 @@ function displayMenuButtons() {
 - <b>반응형 디자인</b>
 
 ```CSS
-@media (max-width: 730px) {
+@media (max-width: 1200px) {
   .container {
     padding: 2rem;
   }
 
-.button-box {
-display: flex;
-justify-content: center;
-}
+  .button-box {
+    display: flex;
+    justify-content: center;
+  }
 
-.item {
-flex-direction: column;
-align-items: center;
-}
+  .section-box {
+    justify-content: center;
+  }
 
-.item-cover {
-width: 380px;
-height: 280px;
-}
+  .item {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.item-info {
-text-align: center;
-padding: 1rem 0;
-}
+  .item-cover {
+    width: 380px;
+    height: 280px;
+  }
+
+  .item-info {
+    text-align: center;
+    padding: 1rem 0;
+  }
 }
 
 ```
@@ -95,3 +111,4 @@ padding: 1rem 0;
 ---
 
 - 함수의 분리가 필요하다.
+- 촘촘한 반응형 설계가 필요하다.
